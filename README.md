@@ -10,5 +10,3 @@ IM 聊天软件需要截图功能。我们找到了一个方法，微信 dll，�
       if (code) mainWindow.webContents.paste()
     })
 ```
-
-截图软件 Git 地址: https://github.com/liangtongzhuo/electron_screenshot
