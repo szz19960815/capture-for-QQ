@@ -10,3 +10,7 @@
       if (code) mainWindow.webContents.paste()
     })
 ```
+
+```
+electron出现打包后没有正常调用或者返回正常结果的情况下,查看是否是在electron打包后也对该exe进行了二次打包,针对这个情况我的做法是放到static目录下,使用__static路径访问,避免打包,当然也可以使用process.cwd()判断工作区,然后拼接打包后的目录
+```
